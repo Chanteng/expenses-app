@@ -55,6 +55,7 @@ function EditExpense(props) {
           <Form.Label>Date</Form.Label>
           <Form.Control
             name="date"
+            type="date"
             placeholder="Enter Date"
             value={date}
             onChange={(e) => handleDateChange(e)}
